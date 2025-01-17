@@ -1,5 +1,5 @@
 ## Context
-The [context](https://sedimark.github.io/ontology/broker/jsonld-contexts/sedimark-compound.jsonld) define all
+The [context](https://sedimark.github.io/broker/jsonld-contexts/sedimark-compound.jsonld) define all
 the already discussed property for types :
 - [Asset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-asset.jsonld)
 - [DataAsset](https://sedimark.github.io/broker/jsonld-contexts/sedimark-data-asset.jsonld)
