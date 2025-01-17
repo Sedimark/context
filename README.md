@@ -16,4 +16,4 @@ An example of asset creation for a broker deployed on "localhost:8080" would be 
 
 POST "localhost:8080/ngsi-ld/v1/entities"
 
-body : [example here](https://sedimark.github.io/ontology/broker/payload-example/asset.jsonld)
+body : [example here](https://sedimark.github.io/broker/payload-example/asset.jsonld)
