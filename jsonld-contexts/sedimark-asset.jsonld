@@ -18,7 +18,7 @@
     "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
     "endpointDescription": "http://www.w3.org/ns/dcat#endpointDescription",
     "geometry": "http://www.w3.org/ns/locn#geometry",
-    "image": "https://sedimark.github.io/ontology#	image",
+    "image": "https://sedimark.github.io/ontology#image",
     "relatedAsset": "https://sedimark.github.io/ontology#relatedAsset",
     "processingSteps": "https://sedimark.github.io/ontology#processingSteps"
   }
