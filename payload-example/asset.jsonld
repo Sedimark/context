@@ -54,7 +54,7 @@
     "value": "https://my.endpoint/url"
   },
   "endpointDescription": {
-    "type": "GeoProperty",
+    "type": "Property",
     "value": "this is what my endpoint do"
   },
   "geometry": {
