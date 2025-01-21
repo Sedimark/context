@@ -7,7 +7,7 @@
   },
   "creator": {
     "type": "Relationship",
-    "value": "id:of:the:creator"
+    "object": "urn:ngsi-ld:Participant:MyParticipantId"
   },
   "description": {
     "type": "Property",
@@ -15,7 +15,7 @@
   },
   "publisher": {
     "type": "Relationship",
-    "value": "id:of:the:publisher"
+    "object": "urn:ngsi-ld:Participant:MyParticipantId"
   },
   "issued": {
     "type": "Property",
