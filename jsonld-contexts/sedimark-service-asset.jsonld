@@ -4,7 +4,6 @@
     "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
     "endpointDescription": "http://www.w3.org/ns/dcat#endpointDescription",
     "servesDataset":	"http://www.w3.org/ns/dcat#servesDataset",
-    "serviceConfig": "https://sedimark.github.io/ontology#serviceConfig",
-
+    "serviceConfig": "https://sedimark.github.io/ontology#serviceConfig"
   }
 }
