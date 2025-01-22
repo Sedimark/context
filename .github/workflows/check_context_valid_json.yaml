@@ -25,3 +25,4 @@ jobs:
             printf "Checking $file .. "
             jq empty $file && echo "OK"
           done
+        shell: bash
