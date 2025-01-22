@@ -6,5 +6,6 @@
     "openid": "https://sedimark.github.io/ontology#openid",
     "mbox": "https://sedimark.github.io/ontology#mbox",
     "homepage": "https://sedimark.github.io/ontology#homepage"
+
   }
 }

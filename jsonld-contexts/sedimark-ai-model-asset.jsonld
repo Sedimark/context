@@ -16,6 +16,6 @@
     "outputParameters":	"https://sedimark.github.io/ontology#outputParameters",
     "hasTrainingDataset":	"https://sedimark.github.io/ontology#hasTrainingDataset",
     "hasArchitecture":	"https://sedimark.github.io/ontology#hasArchitecture",
-    "datasetProcessing":	"https://sedimark.github.io/ontology#datasetProcessing"
+    "datasetProcessing":	"https://sedimark.github.io/ontology#datasetProcessing",
   }
 }
