@@ -5,6 +5,6 @@
     "account": "https://sedimark.github.io/ontology#account",
     "openid": "https://sedimark.github.io/ontology#openid",
     "mbox": "https://sedimark.github.io/ontology#mbox",
-    "homepage": "https://sedimark.github.io/ontology#homepage",
+    "homepage": "https://sedimark.github.io/ontology#homepage"
   }
 }
