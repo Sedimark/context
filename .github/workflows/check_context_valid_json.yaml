@@ -1,0 +1,30 @@
+name: Check JSON-LD contexts are valid JSON
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - '**'
+    paths:
+      - 'jsonld-contexts/**'
+
+jobs:
+  check-context-valid-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: |
+          sudo apt update && sudo apt install jq
+
+      - name: Check JSON-LD contexts
+        run: |
+          cd jsonld-contexts
+          for file in $(find . -name "*.jsonld"); do
+            printf "Checking $file .. "
+            jq empty $file && echo "OK"
+          done || exit 1
+        shell: bash
