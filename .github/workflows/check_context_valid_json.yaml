@@ -25,10 +25,7 @@ jobs:
           cd jsonld-contexts
           for file in $(find . -name "*.jsonld"); do
             printf "Checking $file .. "
-            jq empty $file && echo "OK"
-            if [$ ? -ne 0]; then
-              echo $?
-              exit 1
-            fi
+            jq empty $file || exit 1
+            echo "OK"
           done || exit 1
         shell: bash
