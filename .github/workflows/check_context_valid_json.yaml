@@ -26,8 +26,8 @@ jobs:
           for file in $(find . -name "*.jsonld"); do
             printf "Checking $file .. "
             jq empty $file && echo "OK"
-            IF NOT %ERRORLEVEL% == 0 (
-              echo %ERRORLEVEL%
+            IF [$ ? -ne 0] (
+              echo $?
               exit 1
             )
           done || exit 1
