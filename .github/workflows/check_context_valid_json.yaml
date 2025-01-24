@@ -26,7 +26,7 @@ jobs:
           error=0
           for file in $(find . -name "*.jsonld"); do
             printf "Checking $file .. "
-            jq empty $file & echo "OK" | error=1 && echo "KO invalid JSON"
+            jq empty $file && echo "OK" || [[ error=1 ; echo "KO invalid JSON" ]]
           done
           exit $error
         shell: bash
