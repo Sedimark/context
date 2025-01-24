@@ -17,4 +17,5 @@
     "hasTrainingDataset":	"https://sedimark.github.io/ontology#hasTrainingDataset",
     "hasArchitecture":	"https://sedimark.github.io/ontology#hasArchitecture",
     "datasetProcessing":	"https://sedimark.github.io/ontology#datasetProcessing"
+    }
 }
