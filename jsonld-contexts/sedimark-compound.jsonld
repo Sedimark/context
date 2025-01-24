@@ -6,5 +6,3 @@
     "https://sedimark.github.io/broker/jsonld-contexts/sedimark-data-asset.jsonld",
     "https://sedimark.github.io/broker/jsonld-contexts/sedimark-service-asset.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
-  ]
-}
