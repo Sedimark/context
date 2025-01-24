@@ -26,9 +26,9 @@ jobs:
           for file in $(find . -name "*.jsonld"); do
             printf "Checking $file .. "
             jq empty $file && echo "OK"
-            IF [$ ? -ne 0] (
+            if [$ ? -ne 0]; then
               echo $?
               exit 1
-            )
+            fi
           done || exit 1
         shell: bash
