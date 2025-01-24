@@ -23,9 +23,10 @@ jobs:
       - name: Check JSON-LD contexts
         run: |
           cd jsonld-contexts
+          error=0
           for file in $(find . -name "*.jsonld"); do
             printf "Checking $file .. "
-            jq empty $file || exit 1
-            echo "OK"
-          done || exit 1
+            jq empty $file && echo "OK" || error=1
+          done
+          exit $error
         shell: bash
